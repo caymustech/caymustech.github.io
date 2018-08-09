@@ -33,13 +33,13 @@ video {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  body {
-    background: url('../img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
-    background-position: cover;
-  }
-  body video {
-    display: none;
-  }
+  // body {
+  //   background: url('../img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
+  //   background-position: cover;
+  // }
+  // body video {
+  //   display: none;
+  // }
 }
 
 .overlay {
