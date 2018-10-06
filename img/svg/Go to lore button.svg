@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 117 37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a695;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 13px;
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        filter: url(#Path_35);
+      }
+    </style>
+    <filter id="Path_35" x="0" y="0" width="117" height="37" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_34" data-name="Group 34" transform="translate(-275 -2018)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 275, 2018)">
+      <path id="Path_35-2" data-name="Path 35" class="cls-1" d="M0,0H111V31H0Z" transform="translate(3 1)"/>
+    </g>
+    <text id="GO_TO_LORE" data-name="GO TO LORE" class="cls-2" transform="translate(298 2039)"><tspan x="0" y="0">GO TO LORE</tspan></text>
+  </g>
+</svg>

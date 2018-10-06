@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 365.093 448.661">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f8f8f8;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_29);
+      }
+    </style>
+    <filter id="Rectangle_29" x="0" y="0" width="365.093" height="448.661" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_60" data-name="Group 60" transform="translate(-265 -4223.507)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 265, 4223.51)">
+      <rect id="Rectangle_29-2" data-name="Rectangle 29" class="cls-1" width="347.093" height="430.661" transform="translate(9 8)"/>
+    </g>
+    <rect id="Rectangle_30" data-name="Rectangle 30" class="cls-2" width="309.086" height="393.942" transform="translate(293 4250.181)"/>
+  </g>
+</svg>
