@@ -247,6 +247,16 @@ img::-moz-selection {
   color: #fed136;
 }
 
+.d-margin-top {
+  margin-top: 16%;
+}
+
+@media only screen and (max-width: 767px) {
+  .d-margin-top {
+    margin: 10%;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
