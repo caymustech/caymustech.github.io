@@ -108,46 +108,127 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center" id="mainNav">
-    <div class="container clearfix">
-
-      <span class="navbar-toggler navbar-toggler-right" style="background-color:transparent;color:white" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-
-        <i class="fa fa-bars fa-2x" aria-hidden="false" style="color:white"></i>
-        <img class="img img-fluid" style="padding-left:80px" id="Mobile-logo" src="img/png/Caymus Logo.png">
-
-      </span>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#product">Products</a>
-          </li>
-          <span class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo" style="margin-top:20px" class="img img-fluid mx-auto d-block"
-              src="img/png/Caymus Logo.png"></span>
-
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#testomonial">Testimonials</a>
-          </li>
-        </ul>
+  <nav id="main-nav-mobile" class="navbar-expand-lg navbar-dark fixed-top d-block d-lg-none">
+    <div class="d-flex flex-row">
+      <div class="p-4">
+        <span class="navbar-toggler navbar-toggler-right" style="background-color:transparent;color:white" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars fa-2x" aria-hidden="false" style="color:white"></i>
+        </span>
       </div>
+      <div class="p-3 ml-auto mr-auto "><img class="img img-fluid" src="img/png/logo.png" /></div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#product">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#testomonial">Testimonials</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
+
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top d-none d-lg-block d-xl-block">
+    <div class="container clearfix">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#product">Products</a>
+        </li>
+        <li class="nav-item">
+          <span class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo" class="img img-fluid mx-auto"
+              src="img/png/logo.png"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#testomonial">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#product">Products</a>
+        </li>
+        <li class="nav-item d-sm-none d-md-block d-lg-block d-xl-block">
+          <span class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo" style="margin-top:20px" class="img img-fluid mx-auto d-block"
+              src="img/png/logo.png"></span>
+        </li>
+  <li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#testomonial">Testimonials</a>
+  </li>
+  </ul>
+  </div> -->
+
+  <!-- Navigation -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-center" id="mainNav">
+      <div class="container clearfix">
+  
+        <span class="navbar-toggler navbar-toggler-right" style="background-color:transparent;color:white" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  
+          <i class="fa fa-bars fa-2x" aria-hidden="false" style="color:white"></i>
+          <img class="img img-fluid" style="padding-left:80px" id="Mobile-logo" src="img/png/Caymus Logo.png">
+  
+        </span>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#product">Products</a>
+            </li>
+            <span class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo" style="margin-top:20px" class="img img-fluid mx-auto d-block"
+                src="img/png/Caymus Logo.png"></span>
+  
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#testomonial">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+
 
   <!-- Header -->
   <header class="masthead">
     <div class="container">
       <p class="intro-text-banner ">Building <span class="intro-text-color-p">products</span>
         at the intersection of<br><span class="intro-text-color-p">education, skills</span> and<br><span class="intro-text-color-p">technology.</span></p>
-
     </div>
   </header>
+
+
   <div class="about-back" style="margin-top:-90px">
     <img src="img/svg/imac-macbook.svg" id="Macbook" class="img-fluid img-mac float-right" style="margin-top:-250px;">
 
@@ -157,17 +238,23 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h4 class="section-heading ">About</h4>
-            <h3 class="section-subheading text-grey" style="font-style: normal;">
-              Caymus is a global group of entrepreneurs passionate about the power of education.<br>
-              Our vision is to empower everyone to embrace and pursue lifelong learning. <br>
-              By improving access to information that enables smart decision-making, <br>
-              we help individuals build skills and challenge their own status quo.<br><br>
-              Our team includes teachers, consultants, bankers, technologists, project managers, <br>
-              consumer goods specialists, media executives, designers, developers<br>
-              and a whole host of other professional backgrounds.<br>
-              While we have sprouted from the Indian subcontinent, our perspective is global, <br>
-              integrated and holistic. We leverage our deep experience and vast network to<br>
-              inspire learners to identify robust options for personal and professional development. </h3>
+            <h3 class="section-subheading text-grey container text-justify" style="font-style: normal;">
+              <p>
+                Caymus is a global group of entrepreneurs passionate about the power of education.
+                Our vision is to empower everyone to embrace and pursue lifelong learning.
+                By improving access to information that enables smart decision-making,
+                we help individuals build skills and challenge their own status quo.</p>
+
+              <p>Our team includes teachers, consultants, bankers, technologists, project managers,
+                consumer goods specialists, media executives, designers, developers
+                and a whole host of other professional backgrounds.</p>
+              <br>
+              <p>
+                While we have sprouted from the Indian subcontinent, our perspective is global,
+                integrated and holistic. We leverage our deep experience and vast network to
+                inspire learners to identify robust options for personal and professional development.
+              </p>
+            </h3>
           </div>
         </div>
       </div>
@@ -238,133 +325,102 @@
 
       </div>
     </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" style="">
+  <!-- About -->
+  <section id="about" style="">
 
-      <div class="row">
-        <div class="col-lg-12 thought">
-          <h2 class="intro-text" style="line-height: 0.75"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It
-            is possible to fly without motors,
-            <br><br>but not without knowledge and skill.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-quote-right"
-              aria-hidden="true"></i><br><br>- Wilbur Wright</h2>
-        </div>
+    <div class="row">
+      <div class="col-lg-12 thought">
+        <h2 class="intro-text" style="line-height: 0.75"><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It
+          is possible to fly without motors,
+          <br><br>but not without knowledge and skill.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-quote-right"
+            aria-hidden="true"></i><br><br>- Wilbur Wright</h2>
       </div>
+    </div>
+  </section>
 
-
-    </section>
-    <div class="partner-back" style="margin-top:-350px">
-      <section class="" id="partners" style="margin-top:-350px">
-
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h4 class="section-heading">Partners</h4>
-
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-xs-3 text-center">
-            <a href="https://theredpen.in" target="_blank"> <img src="img/png/Image 4.png" class="img img-fluid mx-auto d-block margin-top"></a>
-          </div>
-          <div class="col-md-6 col-sm-12 col-xs-3 text-center">
-            <a href="https://admissionado.com/" target="_blank"> <img src="img/png/Image 5.png" class="img img-fluid mx-auto d-block margin-top"></a>
-          </div>
-        </div>
-
-      </section>
-
-      <!-- <section class="" id="product" style="margin-top:-200px">
-
+  <div class="partner-back" style="margin-top:-350px">
+    <section class="" id="partners" style="margin-top:-350px">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="section-heading">Affilation</h4>
+          <h4 class="section-heading">Partners</h4>
 
         </div>
       </div>
-
       <div class="row">
         <div class="col-md-6 col-sm-12 col-xs-3 text-center">
-          <img src="img/png/Image 10.png" class="img img-fluid mx-auto d-block margin-top">
+          <a href="https://theredpen.in" target="_blank"> <img src="img/png/Image 4.png" class="img img-fluid mx-auto d-block margin-top"></a>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-3 text-center">
-          <img src="img/png/Image 11.png" class="img img-fluid mx-auto d-block margin-top">
-        </div>
-      </div>
-
-    </section>-->
-    </div>
-
-    <!-- Team -->
-    <section class="" id="testomonial" style="margin-top:-150px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h4 class="section-heading">Testimonials</h4><br>
-          </div>
-        </div><br><br><br>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/png/kim-dixit.jpeg" alt="">
-              <h4>Dr.Kimberly Dixit</h4>
-              <p class="text-muted">CEO & Co-founder, The Red Pen</p>
-              <p class="text-grey">"Thunderbird's AI-enabled recommendation system has reduced the time required to
-                suggest good fit programs, enabling consultants to focus on other value-added activities. "</p>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/png/sarish-kasat.jpeg" alt="">
-              <h4>Sarish Kasat</h4>
-              <p class="text-muted">Director, Business Strategy and Development, Admissionado</p>
-              <p class="text-grey">"Using Thunderbird, we can better match applicant qualitative attributes to school
-                philosophy and approach."</p>
-            </div>
-          </div>
+          <a href="https://admissionado.com/" target="_blank"> <img src="img/png/Image 5.png" class="img img-fluid mx-auto d-block margin-top"></a>
         </div>
       </div>
     </section>
+  </div>
 
-
-    <!-- Footer -->
-    <footer style="background-color:#1e1f40;color:white" style="padding-bottom:100px">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <span class="copyright">Email us at info[at]caymus.tech</span>
+  <!-- Team -->
+  <section class="" id="testomonial" style="margin-top:-150px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h4 class="section-heading">Testimonials</h4><br>
+        </div>
+      </div><br><br><br>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/png/kim-dixit.jpeg" alt="">
+            <h4>Dr.Kimberly Dixit</h4>
+            <p class="text-muted">CEO & Co-founder, The Red Pen</p>
+            <p class="text-grey">"Thunderbird's AI-enabled recommendation system has reduced the time required to
+              suggest good fit programs, enabling consultants to focus on other value-added activities. "</p>
           </div>
+        </div>
 
-          <div class="col-md-6">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                Caymus Technology Ventures Pvt. Ltd.
-              </li>
-              <li class="list-inline-item">
-
-              </li>
-            </ul>
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/png/sarish-kasat.jpeg" alt="">
+            <h4>Sarish Kasat</h4>
+            <p class="text-muted">Director, Business Strategy and Development, Admissionado</p>
+            <p class="text-grey">"Using Thunderbird, we can better match applicant qualitative attributes to school
+              philosophy and approach."</p>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer style="background-color:#1e1f40;color:white" style="padding-bottom:100px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <span class="copyright">Email us at info[at]caymus.tech</span>
+        </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <div class="col-md-6">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              Caymus Technology Ventures Pvt. Ltd.
+            </li>
+            <li class="list-inline-item">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-
-
-    <!-- Custom scripts for this template -->
-    <script src="js/cyamus.js"></script>
-
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/cyamus.js"></script>
 </body>
 
 </html>
