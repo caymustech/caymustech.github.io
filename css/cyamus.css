@@ -1,36 +1,24 @@
 body {
   overflow-x: hidden;
-  /*font-family: 'Roboto'!important;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-*/
 }
+
+html {overflow-y:auto;} html {overflow-x:hidden;}
 
 p {
   line-height: 1.55;
 }
 
 @media screen and (max-width: 600px) {
-  #Macbook {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
 
   #logo {
     visibility: hidden;
     clear: both;
     display: none;
   }
-  .thought .intro-text {
+   .intro-text {
     margin-top: 50px;
     padding-bottom: 250px !important;
-    /* padding-left: 40px; */
-    /* text-align: justify; */
-    /* text-align-last: center; */
-    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     font-weight: 400;
   }
@@ -45,14 +33,14 @@ p {
     width: 28%;
     display: none;
   }
-  .thought .intro-text {
+   .intro-text {
     padding-top: 200px;
     padding-bottom: 150px;
     padding-left: 40px;
     text-align: justify;
     /* For Edge */
     text-align-last: center;
-    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
     font-weight: 400;
   }
@@ -64,33 +52,10 @@ a {
   text-decoration: none !important;
 }
 
-a:hover {
+/* a:hover {
   color: #fff !important;
-}
+} */
 
-.text-grey {
-  color: gray;
-  /*font-family: Roboto;*/
-  font-size: 20px !important;
-  font-weight: 300;
-  line-height: 1.25;
-  font-style: italic;
-}
-
-a:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffffff !important;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
 
 a:hover:before {
   visibility: visible;
@@ -109,38 +74,10 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  /* font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',*/
 }
 
 section {
   padding: 100px 0;
-}
-
-section h4.section-heading {
-  font-size: 30px;
-  /*font-family: Roboto;
-  text-decoration: underline;
-  text-decoration-style: dashed;*/
-  text-decoration-color: #df6b65;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  color: #df6b65 !important;
-}
-
-section h3.section-subheading {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 75px;
-  text-transform: none;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-h5.about-text {
-  color: grey;
-  text-decoration-style: solid;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 30px;
 }
 
 @media (min-width: 768px) {
@@ -150,7 +87,7 @@ h5.about-text {
 }
 
 .btn {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   font-size: 12px;
 }
@@ -201,8 +138,19 @@ img::-moz-selection {
   background: transparent;
 }
 
-#main-nav-mobile {
+/* #main-nav-mobile {
   background-color: #1c223f;
+} */
+
+/* #nav-mobile {
+  background-color: #1c223f;
+} */
+
+
+
+.nav-mobile-collapse {
+  background-color: #1c223f;
+  margin-top: -1px;
 }
 
 #mainNav {
@@ -217,12 +165,12 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     'Noto Color Emoji';
 }
 
@@ -239,7 +187,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -247,18 +195,11 @@ img::-moz-selection {
   color: #fed136;
 }
 
-.d-margin-top {
-  margin-top: 16%;
-}
-
 .about-us {
   margin-top: 220px;
 }
 
 @media only screen and (max-width: 767px) {
-  .d-margin-top {
-    margin: 10%;
-  }
 
   .about-us {
     margin-top: 0;
@@ -299,539 +240,15 @@ img::-moz-selection {
   }
 }
 
-header.masthead {
-  color: white;
-  background-image: url('../img/png/Main\ Banner.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-header.masthead .intro-text {
-  padding-top: 200px !important;
-  padding-bottom: 200px !important;
-  padding-left: 40px;
-  text-align: justify;
-  /* For Edge */
-  text-align-last: left;
-  font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.intro-text-banner {
-  padding-top: 200px;
-  padding-bottom: 330px;
-  padding-left: 40px;
-  text-align: left;
-  /* For Edge */
-  text-align-last: left;
-  font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-}
-
-.thought {
-  text-align: center;
-  color: white;
-  background-image: url('../img/png/Qoute.png');
-  background-repeat: no-repeat;
-  /*background-attachment: scroll;*/
-  background-size: 100%;
-  /*background-size: cover;*/
-}
-
-.back {
-  color: white;
-  background-color: #1e1f40;
-  font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 100% !important;
-  font-weight: 500;
-}
-
-footer.back .intro-text {
-  font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-}
-
-header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-header.masthead .intro-text .intro-heading {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-@media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-
-  header.masthead .intro-text .intro-heading {
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
-}
-
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
-#portfolio .portfolio-item {
-  right: 0;
-  margin: 0 0 15px;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-  position: relative;
-  display: block;
-  max-width: 400px;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 25px;
-  text-align: center;
-  background-color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
-  text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-  font-size: 16px;
-  font-style: italic;
-  margin: 0;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#portfolio * {
-  z-index: 2;
-}
-
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-}
-
-.portfolio-modal {
-  padding-right: 0px !important;
-}
-
-.portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
-}
-
-.portfolio-modal .modal-content {
-  padding: 100px 0;
-  text-align: center;
-}
-
-.portfolio-modal .modal-content h2 {
-  font-size: 3em;
-  margin-bottom: 15px;
-}
-
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
-  font-style: italic;
-  margin: 20px 0 30px;
-  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content button {
-  cursor: pointer;
-}
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
-
-.portfolio-modal .close-modal .lr {
-  /* Safari and Chrome */
-  z-index: 1051;
-  width: 1px;
-  height: 75px;
-  margin-left: 35px;
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  background-color: #212529;
-}
-
-.portfolio-modal .close-modal .lr .rl {
-  /* Safari and Chrome */
-  z-index: 1052;
-  width: 1px;
-  height: 75px;
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  background-color: #212529;
-}
-
-.timeline {
-  position: relative;
-  padding: 0;
-  list-style: none;
-}
-
-.timeline:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 40px;
-  width: 2px;
-  margin-left: -1.5px;
-  content: '';
-  background-color: #e9ecef;
-}
-
-.timeline > li {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 50px;
-}
-
-.timeline > li:after,
-.timeline > li:before {
-  display: table;
-  content: ' ';
-}
-
-.timeline > li:after {
-  clear: both;
-}
-
-.timeline > li .timeline-panel {
-  position: relative;
-  float: right;
-  width: 100%;
-  padding: 0 20px 0 100px;
-  text-align: left;
-}
-
-.timeline > li .timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0;
-}
-
-.timeline > li .timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0;
-}
-
-.timeline > li .timeline-image {
-  position: absolute;
-  z-index: 100;
-  left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
-  text-align: center;
-  color: white;
-  border: 7px solid #e9ecef;
-  border-radius: 100%;
-  background-color: #fed136;
-}
-
-.timeline > li .timeline-image h4 {
-  font-size: 10px;
-  line-height: 14px;
-  margin-top: 12px;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel {
-  float: right;
-  padding: 0 20px 0 100px;
-  text-align: left;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0;
-}
-
-.timeline > li:last-child {
-  margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-  margin-top: 0;
-  color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-  text-transform: none;
-}
-
-.timeline .timeline-body > ul,
-.timeline .timeline-body > p {
-  margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .timeline:before {
-    left: 50%;
-  }
-
-  .timeline > li {
-    min-height: 100px;
-    margin-bottom: 100px;
-  }
-
-  .timeline > li .timeline-panel {
-    float: left;
-    width: 41%;
-    padding: 0 20px 20px 30px;
-    text-align: right;
-  }
-
-  .timeline > li .timeline-image {
-    left: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
-  }
-
-  .timeline > li .timeline-image h4 {
-    font-size: 13px;
-    line-height: 18px;
-    margin-top: 16px;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-    padding: 0 30px 20px 20px;
-    text-align: left;
-  }
-}
-
-@media (min-width: 992px) {
-  .timeline > li {
-    min-height: 150px;
-  }
-
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px;
-  }
-
-  .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
-  }
-
-  .timeline > li .timeline-image h4 {
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 30px;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .timeline > li {
-    min-height: 170px;
-  }
-
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
-  }
-
-  .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
-  }
-
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
-  }
-}
 
 .team-member {
   margin-bottom: 50px;
   text-align: center;
 }
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
 
 .team-member p {
   margin-top: 0;
-}
-
-section#contact {
-  background-color: #212529;
-  background-image: url('../img/map-image.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-section#contact .section-heading {
-  color: #df6b65;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#contact .form-control:focus {
-  border-color: #fed136;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 footer {
@@ -839,41 +256,1159 @@ footer {
   text-align: center;
 }
 
-footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
 
-footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
+/* UPDATED CSS */
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
+  .navbar-nav>li {
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 16px;
+  }
 
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: block;
-  width: 50px;
-  height: 50px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #212529;
-}
+  .intro-text-color-p {
+    color: #00a594;
+  }
 
-ul.social-buttons li a:active,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:hover {
-  background-color: #fed136;
+  .fa {
+    color: #00a594;
+  }
+
+  .p-grey {
+    color: grey;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-align: justify;
+    text-align-last: unset center;
+  }
+
+  br {
+    display: block !important;
+    margin: 1px 0 !important;
+  }
+
+  .nav-flex-row{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .margin-top {
+    margin-top: 100px;
+  }
+
+  .img-center1 {
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 100px;
+  }
+
+  .intro-text {
+    text-indent: 1.5px !important;
+  }
+
+  .about-back {
+    background-color: #f8f8f8;
+  }
+
+  .about-back-2 {
+    position: relative;
+    margin-top:-95px;
+  }
+
+  .collapsebar-main {
+    display:flex;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    border-bottom: 1px solid #000000;
+  }
+
+  .collapsebar-main a {
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+  }
+
+  .partner-back {
+    background-color: #f8f8f8;
+  }
+
+  .about-box {
+    background-image: url("img/svg/Product.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .box-main {
+    display: flex;
+  }
+
+  header.masthead {
+    padding-top: 35px;
+    color: white;
+    max-width: 100%;
+    background-image: url('../img/png/main_banner.png');
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+  header.masthead .intro-text {
+    padding-left: 40px;
+    text-align: justify;
+    /* For Edge */
+    text-align-last: left;
+    font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px; 
+    font-weight: 400;
+  }
+
+  .intro-text-banner {
+    padding-top: 230px;
+    padding-bottom: 330px;
+    margin-bottom: unset;
+    padding-left: 20px;
+    text-align: left;
+    /* For Edge */
+    text-align-last: left;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .section-heading-span {
+    border-bottom: 2px solid #df6b65;
+    border-bottom-style: dashed;
+  }
+
+  #section-heading-portfolio {
+    padding-top:75px;
+  }
+
+
+  .img-mac {
+    position: absolute;
+    text-align: justify !important;
+    text-align-last: right !important;
+    height: 433px;
+    right: 0;
+    width: 700px;
+    margin-top:-180px;
+  }
+
+  section h4.section-heading {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-decoration-color: #df6b65;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #df6b65 !important;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding-bottom: 5px !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  .about-padding {
+    padding-top: 50px;
+  }
+
+  .text-grey {
+    color: #818181;
+    font-family: 'Roboto';
+    font-size: 16px !important;
+    font-weight: 300;
+    line-height: 1.75;
+  }
+
+  .about-description {
+    padding: 0px 90px 0px 90px;
+    padding-bottom: 12px;
+  }
+
+  #about-description-1 {
+    padding-top:8px;
+  }
+
+  section h3.section-subheading {
+    font-size: 16px;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  .bottom-slice {
+    position: relative;
+  }
+
+  /* left */
+  .bottom-slice:after {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    bottom: -1px;
+  }
+
+  /* right */
+  .bottom-slice:before {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    transform: rotate(180deg);
+    right: -1px;
+    bottom: -1px;
+  }
+
+  .product-card {
+    padding: 2rem;
+  }
+
+  .productcard1 {
+    margin-top: 30px;
+    margin-left: 68px;
+    margin-right: 68px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16) !important;
+  }
+
+  h5.about-text {
+    font-weight: 500;
+    color: #707070;
+    text-decoration-style: solid;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 18px;
+  }
+
+  .product-section {
+    padding-top: unset;
+  }
+
+  .product-container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .product-description {
+    font-size: 16px;
+    color: #818181;
+    text-align: justify;
+    font-family: 'Roboto';
+    margin-top:30px;
+    line-height: 1.75;
+  }
+
+  .product-image {
+    max-width:100%;
+    margin-top: 55px;
+  }
+
+  .product-title-span {
+    border-bottom: 2px solid #707070;
+    padding-bottom:8px;
+  }
+
+  .product-card-body {
+    padding: 55px 49px 55px 49px;
+  }
+
+  .product-main {
+    position: relative;
+  }
+
+  .top-slice {
+    position: relative;
+  }
+
+  /* left  */
+  .top-slice:after {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  /* right */
+  .top-slice:before {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    transform: rotate(90deg);
+    right: 0;
+    top: 0;
+  }
+
+
+
+  .about-main-div {
+    display: grid;
+    grid-template-columns: 6% 88% 6%;
+    background-color: #1e1f40;
+    padding-top: 43px;
+    padding-bottom: 43px;
+  }
+
+  .about-div2 {
+    text-align:center;
+    font-family:'Roboto';
+    color:white;
+    padding-top: 87px;
+    padding-bottom: 87px;       
+    padding-left:235px;
+    padding-right: 235px;
+  }
+
+  .about-div3 {
+    padding-bottom:20px;
+  }
+
+  .about-div3-span1 {
+    /* padding-right:30px; */
+  }
+
+  .faquote-lg {
+    text-align: left;
+  }
+
+  .about-div3-span2 {
+    padding-left: 15px;
+    font-size: 23px;
+  }
+
+  .writer-span {
+    font-size: 23px;
+  }
+
+  .writer-span-2 {
+    float:right;
+  }
+
+  .affiliation-back{
+    background-color: #f8f8f8;
+  }
+
+  .testimonial-section {
+    padding-top: unset;
+  }
+
+  .testimonial-user {
+    color:#707070;
+    font-size:20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-family:'Roboto'"
+  }
+
+  .testimonial-user-designation {
+    font-size:13px;
+    font-family:'Roboto';
+    color: #707070;
+  }
+
+  .testimonial-description {
+    font-size:16px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family:'Roboto';
+    color: #818181;
+  }
+
+  .testimonial-heading-div {
+    padding-bottom:55px;
+  }
+
+  .partner-section {
+    padding-top:30px;
+    padding-bottom: 30px;
+  }
+
+  .partner-div-padding {
+    padding-top:40px;
+  }
+
+  .affiliation-section {
+    padding-top:30px;
+    padding-bottom: 175px;
+  }
+
+  .top-expand {
+    position: relative;
+  }
+
+  /* left  */
+  .top-expand:after {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    transform: rotate(270deg);
+    left: -1px;
+    top: -89px;
+  }
+
+  /* right */
+  .top-expand:before {
+    content: '';
+    display: block;
+    border-top: 0px solid transparent;
+    border-bottom: 90px solid transparent;
+    border-left: 90px solid #f8f8f8;
+    position: absolute;
+    transform: rotate(180deg);
+    right: -1px;
+    top: -89px;
+  }
+
+  .top-expand-blue:after , .top-expand-blue:before {
+    border-left: 90px solid #1e1f40;
+  }
+
+  .card-image-div-main {
+    background-color: #f8f8f8;
+    border: 3px solid white !important;
+    display: flex;
+  }
+
+  .card-image-div-1 {
+    flex: 1;
+  }
+
+  .card-image-div-2 {
+    flex: 2;
+  }
+
+  .card-image-div-3 {
+    flex: 1;
+  }
+
+  .card-description-main {
+    border: 1px solid white !important;
+    background-color: #f8f8f8;
+  }
+
+  .about-section-quote {
+    padding-top:unset;
+    padding-bottom: unset;
+  }
+
+  .about-section {
+    padding-bottom: unset !important;
+  }
+
+  .footer-main {
+    display: flex;
+  }
+
+  .footerD {
+    background-color:#1e1f40;
+    color:white;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-family: 'Roboto';
+  }
+
+
+  .footer-1 {
+    flex: 1;
+    text-align: left;
+    padding-left: 25px;
+  }
+
+  .footer-2 {
+    flex: 1;
+  }
+
+  .footer-3 {
+    flex: 1;
+    text-align: right;
+    padding-right: 25px;
+  }
+
+  .btn {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  .nav-underline:before {
+    content: '';
+    position: absolute;
+    width: 31px;
+    height: 2px;
+    bottom: 0;
+    left: 30%;
+    background-color: #ffffff !important;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .testimonial-a:before {
+    left: 40%;
+  }
+
+  #t-user-designation-1 {
+    margin-bottom: 0;
+  }
+
+  footer {
+    padding: 10px 0;
+    text-align: center;
+  } 
+
+  .team-member img {
+    width: unset;
+    height: unset;
+    border: 7px solid #fff;
+  }
+
+  .team-member h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+
+  .active {
+    color: #00a594 !important;
+    /* background-color: #00a594; */
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+  .img-mac {
+    width: 570px;
+    height: unset;
+    margin-right: 30px;
+  }
+
+  .about-padding {
+    padding-top: unset;
+  }
+
+  .about-div2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .testimonial-description {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  }
+
+  @media only screen and (max-width: 992px) {
+  .intro-text-banner {
+    font-size: 24px;
+    padding-top: 110px;
+    padding-bottom: 242px;
+  }
+
+  .nav-flex-row {
+    padding-right: 35px !important;
+    padding-left: 50px !important;
+  }
+
+  .about-us {
+    margin-top: 60px;
+  }
+
+  .img-mac {
+    width: 395px;
+    height: 433px;
+  }
+
+  section h4.section-heading {
+    font-size: 16px;
+  }
+
+  .text-grey {
+    font-size: 14px !important;
+  }
+
+  .about-description {
+    padding: 0px 40px 0px 40px;
+  }
+
+  #section-heading-portfolio {
+    padding-top: 15px;
+  }
+
+  .productcard1 {
+    margin-top: 30px;
+    margin-left: 53px;
+    margin-right: 53px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .product-card2-direction {
+    flex-direction: column;
+  }
+
+  .card-image-div-main{
+    flex: 1;
+  }
+
+  .card-description-main {
+    flex: 1;
+  }
+
+  h5.about-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .product-description {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .product-card-body {
+    padding: 22px 49px 30px 49px;
+  }
+
+  .product-image {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .product-section {
+    padding-bottom: 60px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-div2 {
+    /* padding-left: 127px;
+    padding-right: 127px; */
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  .about-div3-span2 {
+    font-size: 18px;
+  }
+
+  .about-main-div {
+    padding-top: 35px;
+    padding-bottom: 18px;
+  }
+
+  .writer-span {
+    font-size: 18px;
+  }
+
+  .affiliation-section {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+
+  .affiliation-padding {
+    padding-top:40px;
+  }
+
+  .testimonial-heading-div {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .testimonial-user {
+    font-size:14px;
+  }
+
+  .testimonial-user-designation {
+    font-size: 12px;
+  }
+
+  .testimonial-description {
+    font-size: 14px;
+  }
+
+  .testimonial-description {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .testimonial-section {
+    padding-bottom: 35px;
+  }
+
+  /* left */
+  .bottom-slice:after {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+  }
+
+  /* right */
+  .bottom-slice:before {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+  }
+
+  /* left  */
+  .top-expand:after {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+    top: -59px;
+  }
+
+  /* right */
+  .top-expand:before {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+    top: -59px;
+  }
+
+  .top-expand-blue:after , .top-expand-blue:before {
+    border-left: 60px solid #1e1f40;
+  }
+
+  /* left */
+  .top-slice:after {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+
+  }
+
+  /* right */
+  .top-slice:before {
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #f8f8f8;
+  }
+
+  .footer-main {
+  }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+  .img-mac {
+    margin-right: 30px;
+  }
+  }
+
+  @media only screen and (min-width: 768px) {
+  section {
+    padding: 115px 0;
+  }
+  }
+
+  @media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+  }
+  }
+
+  @media only screen and (max-width: 425px) {
+
+  .navbar-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .collapsebar-main {
+    font-size: 10.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-flex-row {
+    padding-right: 10px !important;
+    padding-left: 30px !important;
+  }
+
+  .intro-text-banner {
+    font-size: 21px;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-bottom: 200px;
+    line-height: 25px;
+  }
+
+  .img-mac {
+    width: 259px;
+    height: 481px;
+  }
+
+  #about-description-1 {
+    padding-top: unset;
+    padding-bottom: 5px;
+  }
+
+  #about-description-2 {
+    padding-bottom: 5px;
+  }
+
+  #about-description-3 {
+    padding: 0px 14px 0px 14px;
+  }
+
+  .about-description {
+    padding: 0px 20px 0px 20px;
+  }
+
+  #section-heading-portfolio {
+    padding-top: unset;
+  }
+
+  .productcard1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 15px;
+  }
+
+  .product-card-body {
+    padding: 22px 13px 30px 13px;
+  }
+
+  .product-description {
+    padding-right: 8px;
+    padding-left: 8px;
+    line-height: 20px;
+  }
+
+  .product-description-t-m {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .card-group>.card {
+    margin-bottom: 0px;
+  }
+
+  .product-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .product-image-t-m {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .product-section {
+    padding-bottom: 15px;
+  }
+
+  .about-div3-span2 {
+    font-size: 12px;
+  } 
+
+  .about-div2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about-main-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .about-div3-span1 {
+    padding-right: 5px;
+  }
+
+  .writer-span {
+    font-size: 12px;
+  } 
+
+  /* left */
+  .bottom-slice:after {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+  }
+
+
+  /* right */
+  .bottom-slice:before {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+  }
+
+  /* left  */
+  .top-expand:after {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+    top: -24px;
+  }
+
+  /* right */
+  .top-expand:before {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+    top: -24px;
+  }
+
+  .top-expand-blue:after , .top-expand-blue:before {
+    border-left: 25px solid #1e1f40;
+  }
+
+  /* left */
+  .top-slice:after {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+
+  }
+
+  /* right */
+  .top-slice:before {
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #f8f8f8;
+  }
+
+  .partner-div-padding {
+    padding-top: 15px;
+  }
+
+  .t-m-p {
+    padding-bottom: 57px;
+  }
+
+  .affiliation-section {
+    padding-top: 5px;
+    padding-bottom: 55px;
+  }
+
+  .affiliation-padding {
+    padding-top:18px;
+  }
+
+  .testimonial-heading-div {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  .testimonial-section {
+    padding-bottom: 70px;
+  }
+
+  .footerD {
+    font-size: 9px;
+  }
+
+
+  .footer-1 {
+    text-align: center;
+    padding-left: unset;
+  }
+
+  .footer-2 {
+    flex: 1;
+  }
+
+  .footer-3 {
+    text-align: center;
+    padding-right: unset;
+  }
+
+  .footer-main {
+    flex-direction: column;
+  }
+
+
+  }
+
+
+  @media only screen and (min-width:426px) and (max-width:767px) {
+    .product-card-body {
+      padding: 22px 40px 30px 40px;
+    }
+
+    .product-card {
+      padding: 1.5rem;
+    }
+
+    .about-div2 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .t-m-767 {
+      padding-bottom: 65px;
+    }
+
+    .testimonial-description {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .footer-2 {
+      flex: 0 
+    }
+
+    .footer-3 {
+      flex: 2;
+      padding-right: 20px;
+    }
+
+    .about-div2 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    /* left */
+    .bottom-slice:after {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+    }
+
+
+    /* right */
+    .bottom-slice:before {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+    }
+
+    /* left  */
+    .top-expand:after {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+      top: -34px;
+    }
+
+    /* right */
+    .top-expand:before {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+      top: -34px;
+    }
+
+    .top-expand-blue:after , .top-expand-blue:before {
+      border-left: 35px solid #1e1f40;
+    }
+
+    /* left */
+    .top-slice:after {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+
+    }
+
+    /* right */
+    .top-slice:before {
+      border-bottom: 35px solid transparent;
+      border-left: 35px solid #f8f8f8;
+    }
+
+    .img-mac {
+      margin-right: 15px;
+    }
+  }
+
+
+  @media only screen and (max-width:375px) {
+  .productcard1 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .about-div3-span2 {
+    padding-left: 8px;
+    font-size: 11px;
+  }
+  }
+
+  @media only screen and (max-width:325px) {
+    .productcard1 {
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+
+    .product-container {
+      padding-right: 35px;
+      padding-left: 35px;
+    }
+
+    .about-description {
+      padding: 0px 1px 0px 1px;
+    }
+
+    .about-div2 {
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+
+    .about-div3-span2 {
+      padding-left: unset;
+      font-size: 11px;
+    }
+
+    .writer-span {
+      font-size: 11px;
+    }
+
+    .testimonial-nav{
+      padding-right: 20px;
+    }
+  
+  }
+
+  @media only screen and (min-width:500px) and (max-width:768px) { 
+    .product-image {
+      padding-left: 75px;
+      padding-right: 75px;
+  }
 }
