@@ -279,6 +279,7 @@ h1 {
 .story-sec p {
   font-size: 17px;
   margin-top: 26px;
+  text-align: justify;
 }
 .team-sec h1 {
   margin-left: auto;
